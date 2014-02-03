@@ -31,8 +31,8 @@
 	NSMutableArray			*_locationItems;
 	CMMotionActivityManager *_activityManager;
 	CMMotionActivity		*_motionActivity;
-	BOOL					_deferredLocationUpdates;
 	NSString				*_lastAnnotation;
+	BOOL					_deferredLocationUpdates;
 }
 
 - (void)viewDidLoad {
