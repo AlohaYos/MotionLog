@@ -20,10 +20,10 @@
 - (BOOL)isSameActivity:(LocateMotion*)lm {
 	if(
 	   (_activity.stationary == lm.activity.stationary) &&
-	   (_activity.walking == lm.activity.walking) &&
-	   (_activity.running == lm.activity.running) &&
+	   (_activity.walking    == lm.activity.walking)    &&
+	   (_activity.running    == lm.activity.running)    &&
 	   (_activity.automotive == lm.activity.automotive) &&
-	   (_activity.unknown == lm.activity.unknown)
+	   (_activity.unknown    == lm.activity.unknown)
 	   ) {
 		return YES;
 	}
